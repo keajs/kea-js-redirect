@@ -1,0 +1,22 @@
+{
+  "name": "kea-js-redirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keajs/kea-js-redirect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keajs/kea-js-redirect/issues"
+  },
+  "homepage": "https://github.com/keajs/kea-js-redirect#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
