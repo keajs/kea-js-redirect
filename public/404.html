@@ -25,5 +25,11 @@ body {
         <h2>We dropped one dot in the URL.</h2>
         <p>Click here to load <a href='https://keajs.org' id='url'>https://keajs.org</a></code></p>
     </div>
+    <script>
+        var url = 'https://keajs.org' + window.location.pathname + window.location.search;
+        const e = document.getElementById('url')
+        e.innerText = url
+        e.href = url
+    </script>
 </body>
 </html>
