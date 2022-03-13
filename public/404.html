@@ -30,6 +30,7 @@ body {
         const e = document.getElementById('url')
         e.innerText = url
         e.href = url
+        window.setTimeout(function () { window.location.href = url }, 1000)
     </script>
 </body>
 </html>
